@@ -17,11 +17,11 @@ export default function MainContent(){
                 </div>
                 <div className='sub-container'>
                     <h2 className='name'>Jon Manuel Palencia</h2>
-                    <h4 className='role'>Web Developer</h4>
+                    <h4 className='role'>Web Developer | React Js | Javascript</h4>
                     <h5 className='web'>jonpalencia20@gmail.com</h5>
                     <div className='connect'>
-                        <a className='mail' href=""><img src={mail} alt="mail" /> Email</a>
-                        <a className='linkedin' href="" target='_blank'><img src={linkedin} alt="" />LinkedIn</a>
+                        <a className='mail'><img src={mail} alt="mail" /> Email</a>
+                        <a className='linkedin' href="https://www.linkedin.com/in/jon-palencia/" target='_blank'><img src={linkedin} alt="" />LinkedIn</a>
                     </div>
                     <div className='about'>
                         <h3>About</h3>
@@ -29,13 +29,13 @@ export default function MainContent(){
                     </div>
                     <div className='interest'>
                         <h3>Interests</h3>
-                        <p>Learnning new skills, Sports, Games, I'am a tech enthusiast, like playing online games, but most of all learning new things constantly it gives me the urge to improve my skills and knowledge to be more and more better.</p>
+                        <p>Learnning new skills, Sports, Games, I'am a tech enthusiast, I like playing online games, but most of all learning new things constantly it gives me the urge to improve my skills and knowledge to be more and more better.</p>
                     </div>
                 </div>
                 <div className='footer'>
                     <a href="https://web.facebook.com/JMPalencia.xx/" target="_blank" ><img className='facebook' src={facebook} alt="facebook" /></a>
-                    <a href=""><img className='twitter' src={Twitter} target="_blank" /></a>
-                    <a href=""><img className='instagram' src={Instagram} alt="Instagram" target="_blank" /></a>
+                    <a><img className='twitter' src={Twitter}/></a>
+                    <a><img className='instagram' src={Instagram} alt="Instagram"/></a>
                     <a href="https://github.com/Jon20-Webdev" target="_blank" ><img className='github' src={github} alt="github" /></a>
                 </div>
             </div>
